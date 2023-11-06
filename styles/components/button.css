@@ -1,0 +1,86 @@
+a,
+a .primarybutton,
+a .optionvariant,
+a .optionbutton,
+a .dangerbutton {
+  text-decoration: none;
+}
+
+.primarybutton,
+.optionvariant,
+.dangerbutton {
+  padding: 0.75rem;
+  border-radius: 0.175rem;
+  border: 0.1rem solid var(--primary);
+  background: var(--primary);
+  box-shadow: 0 1px 3px var(--primaryshadow), 0 1px 2px var(--primaryshadow);
+  color: var(--white);
+  min-width: 7.5rem;
+  width: auto;
+  cursor: pointer;
+  margin-top: 0.75rem;
+  transition: 0.25s;
+  display: inline-flex;
+  flex-wrap:wrap;
+  transition: 0.2s;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+a.primarybutton,
+a.optionvariant,
+a.dangerbutton {
+  color: var(--white);
+  text-decoration: none;
+  box-shadow: 0 1px 3px var(--dangershadow), 0 1px 2px var(--dangershadow);
+}
+
+.dangerbutton {
+  background: var(--white);
+  border-color: var(--danger);
+  box-shadow: 0 1px 3px var(--dangershadow), 0 1px 2px var(--dangershadow);
+  color: var(--danger);
+}
+
+a.dangerbutton {
+  color: var(--danger);
+}
+
+a.dangerbutton:hover {
+  background: var(--danger);
+  color: var(--white);
+  border-color: var(--danger);
+}
+
+.optionbutton {
+  padding: 0.75rem;
+  border-radius: 0.175rem;
+  border: 0.1rem solid var(--black);
+  background: var(--white);
+  color: var(--black);
+  min-width: 13.5rem;
+  max-width: 100%;
+  width: 100%;
+  cursor: pointer;
+  margin-top: 0.75rem;
+  transition: 0.25s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.optionbutton:hover {
+  color: var(--white);
+  background: var(--black);
+}
+
+.optionvariant {
+  color: var(--white);
+  border-color: var(--optionindigo);
+  background: var(--optionindigo);
+  box-shadow: 0 1px 3px var(--optionindigo), 0 1px 2px var(--optionindigo);
+}
+.optionvariant:hover {
+  color: var(--white);
+  background: var(--optionindigo);
+}

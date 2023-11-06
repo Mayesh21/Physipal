@@ -1,0 +1,91 @@
+.dashboard-header {
+  color: #191919;
+  border-bottom: 0.1rem solid #efefef;
+}
+.dashboard-header-row {
+  align-items: center;
+  padding: 0.925rem 0.75rem;
+}
+.dashboard-header-left {
+  align-items: center;
+}
+.dashboard-header-left-appname {
+  margin-left: 0.75rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #191919;
+}
+.dashboard-header-left-appname img {
+  max-height: 2.5rem;
+}
+
+.dashboard-header-right {
+  align-items: center;
+  justify-content: flex-end;
+  display: flex;
+}
+.dashboard-header-right-link {
+  margin-left: 1rem;
+}
+.dashboard-header a {
+  text-decoration: none;
+  color: #191919;
+}
+.dashboard-header .sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1075;
+  top: 0;
+  left: 0;
+  opacity: 0.99;
+  text-align: center;
+  background-color: #343d46;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+.dashboard-header .sidenav-toggler {
+  cursor: pointer;
+}
+.dashboard-header .sidenav a {
+  text-decoration: none;
+  font-size: 1.25rem;
+  padding: 0.875rem 1.45rem;
+  font-weight: 400;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+}
+.dashboard-header .sidenav a:hover {
+  color: #f1f1f1;
+}
+.dashboard-header .sidenav a.sidenavcloser {
+  position: absolute;
+  top: 0;
+  right: 1.5rem;
+  font-size: 2rem;
+}
+.dashboard-header .sidenavopener {
+  display: none;
+}
+.dashboard-header .sidenav-separator-dots {
+  display: flex;
+  justify-content: center;
+}
+.dashboard-header .sidenav-separator-dots .dot {
+  background: #ffffff;
+  border-radius: 50%;
+  height: 0.35rem;
+  width: 0.35rem;
+  margin-left: 0.75rem;
+}
+.dashboard-header .sidenav .sociallinks {
+  display: flex;
+  align-items: center;
+}
+.dashboard-header .sidenav .sociallinks .headericon {
+  font-size: 1.125rem;
+  margin: 0;
+  margin-right: 0.875rem;
+}

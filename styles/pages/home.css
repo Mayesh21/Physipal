@@ -1,0 +1,35 @@
+.homepage {
+	background: var(--white);
+	color: var(--black);
+	min-height: 100vh;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+}
+.homepage-desc {
+	padding: 1rem;
+}
+.homepage-desc-heading {
+	font-size: 3.5rem;
+	font-weight: 700;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.homepage-desc-desc {
+	font-size: 1.25rem;
+	font-weight: 400;
+	margin-top: 0.75rem;
+}
+.homepage-desc-options {
+	padding: 1.25rem 0;
+}
+.homepage-desc-options a {
+	text-decoration: none;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	text-align: center;
+}

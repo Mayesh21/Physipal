@@ -1,0 +1,69 @@
+.reusable-modal {
+  margin: 0 auto;
+  min-width: 40%;
+  max-width: 75%;
+  color: #191919;
+  background: #ffffff;
+  height: auto;
+  overflow: hidden;
+  border-radius: 0.75rem;
+  text-align: left;
+}
+.reusable-modal-container {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  overflow-y: auto;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 2.5rem 0.5rem;
+  height: auto;
+  z-index: 999;
+  display: none;
+}
+.reusable-modal-container.visible {
+  display: block;
+}
+@media only screen and (max-width: 768px) {
+  .reusable-modal-container {
+    padding: 1.5rem;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .reusable-modal {
+    min-width: 100%;
+    max-width: 100%;
+    border-radius: 0;
+  }
+}
+.reusable-modal-top {
+  padding: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-bottom: 0.1rem solid #efefef;
+  align-items: center;
+}
+.reusable-modal-content {
+  padding: 0.75rem;
+}
+.reusable-modal-content .generatedlink {
+  margin-top: 1rem;
+  background: #efefef;
+  border-radius: 0.25rem;
+  padding: 1rem;
+  color: #191919;
+  border: 0.1rem dashed #cfcfcf;
+}
+.reusable-modal-content .generatedlink a {
+  text-decoration: none;
+  color: #191919;
+}
+.reusable-modal-content .generatedlink-copy {
+  display: flex;
+  justify-content: flex-end;
+}
+.reusable-modal.extrawidth {
+  min-width: 85%;
+  max-width: 95%;
+}

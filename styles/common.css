@@ -1,0 +1,42 @@
+*{
+	box-sizing: border-box;
+	transition: 0.1s;
+	text-decoration: none;
+	text-decoration-color: transparent;
+}
+
+body {
+	display: block;
+	line-height: 1.61;
+	max-width: 100%;
+	overflow-x: hidden;
+	min-width: 100%;
+	font-family: "Montserrat", "Roboto", sans-serif;
+}
+
+/* Overwriting Bootstrap Styles. */
+.row, .container-fluid {
+  padding: 0;
+  margin: 0;
+}
+.row .col, .row .col-1, .row .col-10, .row .col-11, .row .col-12, .row .col-2, .row .col-3, .row .col-4, .row .col-5, .row .col-6, .row .col-7, .row .col-8, .row .col-9, .row .col-auto, .row .col-lg, .row .col-lg-1, .row .col-lg-10, .row .col-lg-11, .row .col-lg-12, .row .col-lg-2, .row .col-lg-3, .row .col-lg-4, .row .col-lg-5, .row .col-lg-6, .row .col-lg-7, .row .col-lg-8, .row .col-lg-9, .row .col-lg-auto, .row .col-md, .row .col-md-1, .row .col-md-10, .row .col-md-11, .row .col-md-12, .row .col-md-2, .row .col-md-3, .row .col-md-4, .row .col-md-5, .row .col-md-6, .row .col-md-7, .row .col-md-8, .row .col-md-9, .row .col-md-auto, .row .col-sm, .row .col-sm-1, .row .col-sm-10, .row .col-sm-11, .row .col-sm-12, .row .col-sm-2, .row .col-sm-3, .row .col-sm-4, .row .col-sm-5, .row .col-sm-6, .row .col-sm-7, .row .col-sm-8, .row .col-sm-9, .row .col-sm-auto, .row .col-xl, .row .col-xl-1, .row .col-xl-10, .row .col-xl-11, .row .col-xl-12, .row .col-xl-2, .row .col-xl-3, .row .col-xl-4, .row .col-xl-5, .row .col-xl-6, .row .col-xl-7, .row .col-xl-8, .row .col-xl-9, .row .col-xl-auto, .container-fluid .col, .container-fluid .col-1, .container-fluid .col-10, .container-fluid .col-11, .container-fluid .col-12, .container-fluid .col-2, .container-fluid .col-3, .container-fluid .col-4, .container-fluid .col-5, .container-fluid .col-6, .container-fluid .col-7, .container-fluid .col-8, .container-fluid .col-9, .container-fluid .col-auto, .container-fluid .col-lg, .container-fluid .col-lg-1, .container-fluid .col-lg-10, .container-fluid .col-lg-11, .container-fluid .col-lg-12, .container-fluid .col-lg-2, .container-fluid .col-lg-3, .container-fluid .col-lg-4, .container-fluid .col-lg-5, .container-fluid .col-lg-6, .container-fluid .col-lg-7, .container-fluid .col-lg-8, .container-fluid .col-lg-9, .container-fluid .col-lg-auto, .container-fluid .col-md, .container-fluid .col-md-1, .container-fluid .col-md-10, .container-fluid .col-md-11, .container-fluid .col-md-12, .container-fluid .col-md-2, .container-fluid .col-md-3, .container-fluid .col-md-4, .container-fluid .col-md-5, .container-fluid .col-md-6, .container-fluid .col-md-7, .container-fluid .col-md-8, .container-fluid .col-md-9, .container-fluid .col-md-auto, .container-fluid .col-sm, .container-fluid .col-sm-1, .container-fluid .col-sm-10, .container-fluid .col-sm-11, .container-fluid .col-sm-12, .container-fluid .col-sm-2, .container-fluid .col-sm-3, .container-fluid .col-sm-4, .container-fluid .col-sm-5, .container-fluid .col-sm-6, .container-fluid .col-sm-7, .container-fluid .col-sm-8, .container-fluid .col-sm-9, .container-fluid .col-sm-auto, .container-fluid .col-xl, .container-fluid .col-xl-1, .container-fluid .col-xl-10, .container-fluid .col-xl-11, .container-fluid .col-xl-12, .container-fluid .col-xl-2, .container-fluid .col-xl-3, .container-fluid .col-xl-4, .container-fluid .col-xl-5, .container-fluid .col-xl-6, .container-fluid .col-xl-7, .container-fluid .col-xl-8, .container-fluid .col-xl-9, .container-fluid .col-xl-auto {
+  padding: 0;
+}
+
+.form-control {
+  color: #191919;
+}
+.form-control:focus {
+  color: #191919;
+}
+
+.fixedcontainer {
+	padding: 0.75rem;
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.smallwidth {
+	max-width: 500px;
+	margin: 0 auto;
+}

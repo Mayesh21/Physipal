@@ -1,0 +1,56 @@
+.dashboard-medications .medication,
+.dashboard-records .record {
+	padding: 1rem;
+	border: 0.1rem solid #efefef;
+	border-radius: 0.25rem;
+	max-width: 576px;
+	margin: 0 auto 1rem auto;
+	text-align: left;
+	color: #707070;
+	font-weight: 500;
+}
+
+.dashboard-medications .medication .medication-title,
+.dashboard-records .record .record-title{
+	font-weight: 600;
+	font-size: 1.25rem;
+	text-transform: uppercase;
+	letter-spacing: 0.075rem;
+	color: #212121;
+}
+
+.dashboard-medications .medication .medication-createdat,
+.dashboard-records .record .record-createdat {
+	font-size: 0.8rem;
+}
+
+.dashboard-top {
+	display: flex;
+	align-items: center;
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 0.75rem;
+}
+
+.dashboard-heading {
+	font-weight: 700;
+	font-size: 1.25rem;
+	text-transform: uppercase;
+	letter-spacing: 0.05rem;
+}
+
+.dashboard-top-right {
+	text-align: right;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.alert:empty {
+	height: 0;
+	display: none;
+}
+
+.alert:not(:empty) {
+	height: auto;
+	display: block;
+}
